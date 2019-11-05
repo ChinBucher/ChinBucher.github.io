@@ -1,0 +1,20 @@
+name: Yvan
+description: Blogging about life
+meta_description: "My New Jekyll Site, Blogging about life"
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://yvanpang.github.io'
+google_analytics: 'UA-Yvan'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'http://yvanpang.github.io'
+author:         'Yvan'
+
+### edit ###
+#define for page
+root: 'http://yvanpang.github.io'
