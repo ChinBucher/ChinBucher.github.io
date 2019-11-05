@@ -1,4 +1,4 @@
-/* ==========================================================================
+ ==========================================================================
    Table of Contents
    ========================================================================== */
 
@@ -1062,12 +1062,12 @@ body:not(.post-template) .post-title {
     min-height: 180px;
 }
 
-.no-cover.post-head.main-header {
+/*.no-cover.post-head.main-header {
     height: 85px;
     min-height: 0;
     margin-bottom: 0;
     background: transparent;
-}
+}*/
 
 .tag-head.main-header {
     height: 40%;
@@ -1801,4 +1801,11 @@ body:not(.post-template) .post-title {
 .about{
     color: navajowhite;
 }
-/*end*/
+/*from 1065*/
+.no-cover.post-head.main-header {
+    height: 85px;
+    min-height: 0;
+    margin-bottom: 0;
+    /*background: transparent;*/
+}
+/*end
