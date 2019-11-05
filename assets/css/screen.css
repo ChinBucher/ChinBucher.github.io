@@ -1350,7 +1350,8 @@ body:not(.post-template) .post-title {
         height: auto;
         min-height: 240px;
         height: 60%;
-        padding: 15% 0;
+        /*padding: 15% 0;*/
+        padding: 10% 0;
     }
 
     .scroll-down,
@@ -1815,3 +1816,6 @@ body:not(.post-template) .post-title {
     /*background: transparent;*/
 }
 /*end
+
+/*1353*/
+/*padding: 15% 0;*/
