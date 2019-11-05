@@ -491,10 +491,10 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0 0 30px 0;
 }
 
-.main-nav a {
+/*.main-nav a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-}
+}*/
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
@@ -1800,6 +1800,12 @@ body:not(.post-template) .post-title {
 
 .about{
     color: navajowhite;
+}
+/*from 494*/
+.main-nav a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
 }
 /*from 1065*/
 .no-cover.post-head.main-header {
