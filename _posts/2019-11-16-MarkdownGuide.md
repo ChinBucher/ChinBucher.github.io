@@ -2,7 +2,7 @@
 layout: post
 title:  Markdown基本语法
 date:   2019-11-16 01:20:55 +0800
-categories: markdown
+categories: markdown learning
 ---
 
 参考：
