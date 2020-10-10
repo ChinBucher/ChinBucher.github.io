@@ -71,11 +71,11 @@ post_class: post-template
                     <!-- Author Name -->
                     <h4> {{ site.author }} </h4>
                     <!-- Author Bio -->
-                    <p>
+                    <!-- <p>
                         {{ site.meta_description }} 
-                    </p>
+                    </p> -->
                     <p>
-                        <a href="{{ site.baseurl }}">Blogging about life</a>
+                        <a href="{{ site.baseurl }}"> {{ site.meta_description }}</a>
                     </p>
                 </section>
             {% endif %}
