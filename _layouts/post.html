@@ -72,10 +72,10 @@ post_class: post-template
                     <h4> {{ site.author }} </h4>
                     <!-- Author Bio -->
                     <p>
-                        Here goes the author description. 
+                        {{ site.meta_description }} 
                     </p>
                     <p>
-                        You might want to place some links too in here
+                        <a href="{{ site.baseurl }}">Blogging about life</a>
                     </p>
                 </section>
             {% endif %}
@@ -93,3 +93,4 @@ post_class: post-template
     </article>
 
 </main>
+
