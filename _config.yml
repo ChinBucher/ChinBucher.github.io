@@ -3,7 +3,7 @@ description: Blogging about life
 meta_description: "My New Jekyll Site, Blogging about life"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
