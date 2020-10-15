@@ -36,5 +36,35 @@ url: http://chinbucher.github.io
         </section>
 
     </article>
+    
 
+        <footer class="post-footer">
+            <!-- If we want to display author's name and bio -->
+            {% if site.author %}
+                <figure class="author-image">
+                    <a class="img" href="{{ site.url }}" style="background-image: url(/assets/images/profile.jpg)">
+                    <span class="hidden">{{site.author}}'s Picture</span></a>
+                </figure>
+                <section class="author">
+                    <!-- Author Name -->
+                    <h4> {{ site.author }} </h4>
+                    <!-- Author Bio -->
+                    <!-- <p>
+                        {{ site.meta_description }} 
+                    </p> -->
+                    <p>
+                        <a href="{{ site.url }}"> The tiger in me sniffs the rose </a>
+                    </p>
+                </section>
+            {% endif %}
+
+            <!-- Share links section -->
+            {% include share.html %}
+
+            <!-- Disqus comments -->
+            {% if page.disqus %}
+                {% include disqus.html %}
+            {% endif %}
+
+        </footer>
 </main>
