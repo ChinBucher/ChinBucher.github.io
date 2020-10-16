@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SLA vs. SLO vs. SLI"
-date:   2020-16-11 22:25:00
+date:   2020-10-16 22:25:00
 categories: 运维
 ---
 
