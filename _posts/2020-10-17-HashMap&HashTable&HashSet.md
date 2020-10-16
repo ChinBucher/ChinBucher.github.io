@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "HashMap&HashTable&HashSet"
-date:   2020-09-15 23:25:00
+title:  "HashMap vs. HashTable vs. HashSet"
+date:   2020-10-17 23:25:00
 categories: Java
 ---
 
 #### HashMap HashTable HashSet总结   
 
 >Hashmap vs Hashtable
->>HashSet 是Set接口的实现，**不允许重复值**  
+>>HashSet是Set接口的实现，**不允许重复值**  
 >>最主要的是，存储在HashSet中的对象必须重写equals()进行相等性检查，而hashCode()方法中没有重复值的存储在我们的集合中  
 >>
 >>HashMap是Map Interface的实现，该映射将键映射到值。映射中**不允许使用重复键**  
