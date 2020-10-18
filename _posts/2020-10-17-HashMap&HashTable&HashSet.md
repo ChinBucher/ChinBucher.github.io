@@ -7,7 +7,7 @@ categories: Java
 
 #### HashMap HashTable HashSet总结   
 
->Hashmap vs Hashtable
+>HashSet vs HashMap
 >>HashSet是Set接口的实现，**不允许重复值**  
 >>最主要的是，存储在HashSet中的对象必须重写equals()进行相等性检查，而hashCode()方法中没有重复值的存储在我们的集合中  
 >>
@@ -16,7 +16,7 @@ categories: Java
 >>
 >>HashSet和HashMap都不同步  
 
->Hashmap vs Hashtable:
+>HashMap vs HashTable:
 >>1. HashMap不同步。它不是线程安全的，没有适当的同步代码就无法在许多线程之间共享,而Hashtable是同步的。它是线程安全的，可以与许多线程共享  
 >>2. HashMap中，null可以作为键，这样的键只有一个,可以有一个或多个键所对应的值为null;而Hashtable不允许任何空键或值  
 >>3. 如果不需要线程同步，通常首选HashMap而不是HashTable  
