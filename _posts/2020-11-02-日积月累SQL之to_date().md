@@ -47,10 +47,10 @@ categories: SQL
 >>TO_CHAR(number,  '格式' )   
 >>TO_CHAR(salary,’$99,999.99’);   
 >>使用TO_CHAR函数处理日期   
->>TO_CHAR( date ,’格式’);
+>>TO_CHAR( date ,’格式’);  
 >>二、TO_NUMBER   
 >>使用TO_NUMBER函数将字符转换为数字   
->>TO_NUMBER( char [,  '格式' ])
+>>TO_NUMBER( char [,  '格式' ])  
 >>三、TO_DATE   
 >>使用TO_DATE函数将字符转换为日期   
->>TO_DATE( char [,  '格式' ])
+>>TO_DATE( char [,  '格式' ])  
