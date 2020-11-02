@@ -32,10 +32,10 @@ categories: SQL
 >`select floor(sysdate - to_date('20020405','yyyymmdd')) from dual; `
 >4.日期间隔 **between and**    
 >`select * from table where date between TO_DATE('2020-11-01', 'YYYY-MM-DD') AND TO_DATE('2020-11-01', 'YYYY-MM-DD')`    
-	>>(sql 中使用 between and 查询日期时左右闭合的问题，   
-	>>`select * from TABLE where date between '2020-11-01' and '2020-11-01'` =>结果查不到。  
-	>>短日期类型默认Time为00:00:00，所以当使用between and作限制条件时，  
-	>>就相当于 between '2020-11-01 00:00:00' and '2020-11-01 00:00:00'，因此就查不出数据)  
+>>(sql 中使用 between and 查询日期时左右闭合的问题，   
+>>`select * from TABLE where date between '2020-11-01' and '2020-11-01'` =>结果查不到。  
+>>短日期类型默认Time为00:00:00，所以当使用between and作限制条件时，  
+>>就相当于 between '2020-11-01 00:00:00' and '2020-11-01 00:00:00'，因此就查不出数据)  
 
 
 >>**TO_CHAR** 是把日期或数字转换为字符串；
